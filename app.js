@@ -5,6 +5,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "Hello backend",
     name: "marion",
+    age:45
   });
 });
 
